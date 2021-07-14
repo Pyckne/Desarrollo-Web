@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En este expositor podrás ver nuestros proyectos y colaboraciones realizadas.">
+    <meta name="keywords" content="lisandro porto, proyectos, trabajos, desarrollo web, diseño web, freelancer, product design, argentina">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/sass.css">
+    <title>Lisandro Porto - Portafolio y Proyectos realizados</title>
+</head>
+
+<body>
+    <!--
+        Logo y Menu de Navegación
+    -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="../Media/PrototipoLogo.jpg" alt="Logo" class="logo__img"></a>
+        </div>
+        <div>
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__li"><a href="../index.html ">Home</a></li>
+                    <li class="nav__li"><a href="portafolio.html ">Portafolio</a></li>
+                    <li class="nav__li"><a href="sobremi.html ">Sobre mí</a></li>
+                    <li class="nav__li"><a href="valores.html">Valores</a></li>
+                    <li class="nav__li"><a href="contacto.html ">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!--
+                Inserción para Media Queries
+            -->
+            <div class="ham">
+                <ul class="ham__ul ham__ul--padding">
+                    <li class="ham__li"><img class="ham__img" src="../Media/Menu.jpg" alt="Menu">
+                        <ul class="ham__links ham__links--padding">
+                            <li class="ham__link"><a href="../index.html">Home</a></li>
+                            <li class="ham__link"><a href="portafolio.html">Portafolio</a></li>
+                            <li class="ham__link"><a href="sobremi.html">Sobre mí</a></li>
+                            <li class="ham__link"><a href="valores.html">Valores</a></li>
+                            <li class="ham__link"><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--
+        Hero contenedor principal
+    -->
+    <main class="main main-portafolio">
+        <section class="conteiner">
+            <div class="div">
+                <h1 class="div__tittle">Portafolio</h1>
+                <p class="div__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit numquam iure iste est ipsam cumque alias doloribus laudantium nihil odit architecto, velit eligendi culpa aspernatur facilis eos, quam ipsa? Minus.</p>
+            </div>
+        </section>
+        <!--
+            Cards de proyectos
+        -->
+        <section class="conteiner">
+            <div class="wrap">
+                <div class="tarjeta-wrap">
+                    <div class="tarjeta">
+                        <div class="adelante card1"></div>
+                        <div class="atras">
+                            <p>Descripción de las tecnologias utilizadas (HTML, CSS, etc).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-wrap">
+                    <div class="tarjeta">
+                        <div class="adelante card2"></div>
+                        <div class="atras">
+                            <p>Descripción de las tecnologias utilizadas (HTML, CSS, etc).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-wrap">
+                    <div class="tarjeta">
+                        <div class="adelante card3"></div>
+                        <div class="atras">
+                            <p>Descripción de las tecnologias utilizadas (HTML, CSS, etc).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+            Slide
+        -->
+        <section id="slide" class="conteiner">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Media/Slide1.jpg" class="d-block w-100" alt="Proyecto 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Media/Slide2.jpg" class="d-block w-100" alt="Proyecto 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Media/Slide3.jpg" class="d-block w-100" alt="Proyecto 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <!--
+        Newsletter
+    -->
+    <section id="newsletter" class="conteiner">
+        <div class="news">
+            <h3 class="news__tittle">Suscribite para recibir todas las novedades!</h3>
+            <form action="" class="news__form">
+                <div class="news__inputs">
+                    <input class="news__input news__input--space" type="text" placeholder="Nombre">
+                    <input class="news__input" type="text" placeholder="Correo">
+                </div>
+                <div class="news__btn">
+                    <button class="news__submit" type="submit">Suscríbete</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--
+        Píe de Página
+    -->
+    <footer>
+        <div>
+            <a href="../index.html"><img src="../Media/PrototipoLogo1.jpg" class="logo" alt="Footer Logo"></a>
+            <ul class="footer-list footer-nav">
+                <li class="footer-list-item footer-animation"><a href="../index.html">Home</a></li>
+                <li class="footer-list-item footer-animation"><a href="portafolio.html">Portafolio</a></li>
+                <li class="footer-list-item footer-animation"><a href="sobremi.html">Sobre mí</a></li>
+                <li class="footer-list-item footer-animation"><a href="valores.html">Valores</a></li>
+                <li class="footer-list-item footer-animation"><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="footer-list footer-media">
+                <li class="footer-list-item">
+                    <a href="#"><img src="../Media/instagram.svg" class="img-fluid" alt="Instagram icon"></a>
+                </li>
+                <li class="footer-list-item">
+                    <a href="#"><img src="../Media/twitter.svg" class="img-fluid" alt="Twitter icon"></a>
+                </li>
+                <li class="footer-list-item">
+                    <a href="#"><img src="../Media/youtube.svg" class="img-fluid" alt="Youtube icon"></a>
+                </li>
+                <li class="footer-list-item">
+                    <a href="#"><img src="../Media/facebook.svg" class="img-fluid" alt="Facebook icon"></a>
+                </li>
+            </ul>
+            <small>©2021 Todos los Derechos Reservados. Creado por Lisandro Porto Campos</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
