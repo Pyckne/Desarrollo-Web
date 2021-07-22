@@ -32,21 +32,19 @@ p {
     padding: 1.5rem 0;
 }
 
-.div {
+.tittle-conteiner {
     padding: 0;
-    .div__tittle {
+    .tittle-text {
         color: $text-color;
         text-align: center;
         font-weight: 900;
         font-size: 4rem;
         line-height: 80px;
+        margin: 0 0 50px 0;
     }
-    .div__text {
+    .tittle-description {
         text-align: center;
         margin: 0px;
-    }
-    .div__tittle--space {
-        margin: 0 0 50px 0;
     }
 }
 
@@ -54,34 +52,32 @@ p {
     background: $grey-color;
     display: flex;
     justify-content: center;
-    .news {
+    .news-conteiner {
         width: 80%;
         max-width: 600px;
         text-align: center;
-        .news__tittle {
+        .news-tittle {
             font-weight: 300;
             font-size: 2rem;
             margin-bottom: 40px;
         }
-        .news__form {
-            .news__inputs {
+        .news-form {
+            .news-inputs {
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
-                .news__input {
+                .news-input {
                     height: 50px;
                     line-height: 50px;
                     width: 100%;
                     border: none;
                     margin-bottom: 20px;
                     padding: 0 20px;
-                }
-                .news__input--space {
                     margin-right: 20px;
                 }
             }
-            .news__btn {
-                .news__submit {
+            .news-btn {
+                .news-submit {
                     border: none;
                     color: $text-color;
                     background: $black-color;
@@ -89,11 +85,12 @@ p {
                     font-weight: 300;
                     padding: 0, 50px;
                     transition: .3s ease all;
-                    &--btn {
+                    margin-left: -20px;
+                    &-btn {
                         @extend .button;
                     }
                 }
-                .news__submit:hover {
+                .news-submit:hover {
                     color: $btn-effect;
                     border: 2px solid $btn-white;
                     transform: scale(1.1);

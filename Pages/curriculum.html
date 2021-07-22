@@ -10,40 +10,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/sass.css">
-    <title>Lisandro Porto - Sobre mí</title>
+    <title>Lisandro Porto - Curriculum</title>
 </head>
 
 <body>
     <!--
         Logo y Menu de Navegación
     -->
-    <header class="header">
-        <div class="logo">
-            <a href="../index.html"><img src="../Media/PrototipoLogo.jpg" alt="Logo" class="logo__img"></a>
+    <header class="header-conteiner">
+        <div class="logo-conteiner">
+            <a href="../index.html"><img src="../Media/PrototipoLogo.jpg" alt="Logo" class="logo-img"></a>
         </div>
         <div>
-            <nav class="nav">
-                <ul class="nav__ul">
-                    <li class="nav__li"><a href="../index.html">Home</a></li>
-                    <li class="nav__li"><a href="portafolio.html">Portafolio</a></li>
-                    <li class="nav__li"><a href="sobremi.html">Sobre mí</a></li>
-                    <li class="nav__li"><a href="valores.html">Valores</a></li>
-                    <li class="nav__li"><a href="contacto.html">Contacto</a></li>
+            <nav class="nav-conteiner">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html">Home</a></li>
+                    <li class="nav-item"><a href="portafolio.html">Portafolio</a></li>
+                    <li class="nav-item"><a href="curriculum.html">Sobre mí</a></li>
+                    <li class="nav-item"><a href="valores.html">Valores</a></li>
+                    <li class="nav-item"><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
 
             <!--
-                Inserción para Media Queries
+                Inserción Menu Hamburguer para Media Queries
             -->
-            <div class="ham">
-                <ul class="ham__ul ham__ul--padding">
-                    <li class="ham__li"><img class="ham__img" src="../Media/Menu.jpg" alt="Menu">
-                        <ul class="ham__links ham__links--padding">
-                            <li class="ham__link"><a href="../index.html">Home</a></li>
-                            <li class="ham__link"><a href="portafolio.html">Portafolio</a></li>
-                            <li class="ham__link"><a href="sobremi.html">Sobre mí</a></li>
-                            <li class="ham__link"><a href="valores.html">Valores</a></li>
-                            <li class="ham__link"><a href="contacto.html">Contacto</a></li>
+            <div class="ham-menu">
+                <ul class="ham-list">
+                    <li class="ham-item"><img class="ham-img" src="../Media/Menu.jpg" alt="Menu">
+                        <ul class="ham-links">
+                            <li class="ham-link"><a href="../index.html">Home</a></li>
+                            <li class="ham-link"><a href="portafolio.html">Portafolio</a></li>
+                            <li class="ham-link"><a href="sobremi.html">Sobre mí</a></li>
+                            <li class="ham-link"><a href="valores.html">Valores</a></li>
+                            <li class="ham-link"><a href="contacto.html">Contacto</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -56,20 +56,21 @@
     -->
     <main class="main main-sobre-mi">
         <section class="conteiner">
-            <div class="div">
-                <h1 class="div__tittle">Sobre mí</h1>
+            <div class="tittle-conteiner">
+                <h1 class="tittle-text">Sobre mí</h1>
             </div>
         </section>
         <!--
             Contenedor de Perfil
         -->
         <section class="conteiner">
-            <div class="perfil">
-                <div class="perfil__conteiner">
-                    <img class="perfil__image" src="../Media/FotodePerfil.jpg" alt="Mi foto">
+            <div class="perfil-conteiner">
+                <div class="perfil-description">
+                    <p class="perfil-text">Hola!. Mi nombre es Lisandro, tengo 25 años, actualemte me encuentro estudiando una Tecnicatura Superior en Programación en el Instituto Superior TECLAB y Desarrollo Web en CoderHouse, en simultaneo con el estudio me desenvuelvo profesionalmente
+                        como Encargado de la Escuala de Fomación y Capacitación para el Personal Embarcado de la Marina Mercante Nacional ubicado en la ciudad de Comoro Rivadavia apasionado de la tecnologia e inovación.</p>
                 </div>
-                <div class="perfil__description">
-                    <p class="perfil__text">Hola!. Mi nombre es Lisandro, tengo 25 años, actualemte me encuentro estudiando una Tecnicatura Superior en Programación en el Instituto Superior TECLAB y Desarrollo Web en CoderHouse, apasionado de la tecnologia e inovación.</p>
+                <div class="curriculum-conteiner">
+                    <embed class="curriculum-vitae" src="../Media/CV Lisandro Porto.pdf" type="application/pdf">
                 </div>
             </div>
         </section>
@@ -78,15 +79,15 @@
         Newsletter
     -->
     <section id="newsletter" class="conteiner">
-        <div class="news">
-            <h3 class="news__tittle">Suscribite para recibir todas las novedades!</h3>
-            <form action="" class="news__form">
-                <div class="news__inputs">
-                    <input class="news__input news__input--space" type="text" placeholder="Nombre">
-                    <input class="news__input" type="text" placeholder="Correo">
+        <div class="news-conteiner">
+            <h3 class="news-tittle">Suscribite para recibir todas las novedades!</h3>
+            <form action="" class="news-form">
+                <div class="news-inputs">
+                    <input class="news-input" type="text" placeholder="Nombre">
+                    <input class="news-input" type="text" placeholder="Correo">
                 </div>
-                <div class="news__btn">
-                    <button class="news__submit" type="submit">Suscríbete</button>
+                <div class="news-btn">
+                    <button class="news-submit news-submit-btn" type="submit">Suscríbete</button>
                 </div>
             </form>
         </div>
@@ -100,7 +101,7 @@
             <ul class="footer-list footer-nav">
                 <li class="footer-list-item footer-animation"><a href="../index.html">Home</a></li>
                 <li class="footer-list-item footer-animation"><a href="portafolio.html">Portafolio</a></li>
-                <li class="footer-list-item footer-animation"><a href="sobremi.html">Sobre mí</a></li>
+                <li class="footer-list-item footer-animation"><a href="curriculum.html">Sobre mí</a></li>
                 <li class="footer-list-item footer-animation"><a href="valores.html">Valores</a></li>
                 <li class="footer-list-item footer-animation"><a href="contacto.html">Contacto</a></li>
             </ul>

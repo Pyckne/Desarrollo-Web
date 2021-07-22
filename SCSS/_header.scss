@@ -1,5 +1,5 @@
 @import "colores";
-.header {
+.header-conteiner {
     display: flex;
     background-color: #0f0d0e;
     justify-content: space-between;
@@ -13,17 +13,17 @@
         color: white;
         text-decoration: none;
     }
-    .logo__img {
+    .logo-img {
         max-width: 100px;
         max-height: 100px;
     }
-    .nav {
+    .nav-conteiner {
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
-        .nav__ul {
+        .nav-list {
             margin: 0;
             padding: 0;
             list-style: none;
-            .nav__li {
+            .nav-item {
                 display: inline-block;
                 a {
                     display: block;
@@ -37,7 +37,7 @@
     }
 }
 
-.ham {
+.ham-menu {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     display: none;
 }

@@ -68,28 +68,21 @@
 
 
 /*//////////
-    Sobre Mí
+  Curriculum
 //////////*/
 
-.perfil {
-    display: flex;
-    column-gap: 20px;
-    justify-content: center;
-    .perfil__conteiner {
-        height: 250px;
-        justify-self: end;
-        .perfil__image {
-            max-height: 350px;
-            max-width: 350px;
-        }
-    }
-    .perfil__description {
-        width: 500px;
-        height: 100%;
+.perfil-conteiner {
+    .perfil-description {
         justify-self: start;
-        .perfil__text {
+        .perfil-text {
             font-size: 1.5rem;
             text-align: start;
+        }
+    }
+    .curriculum-conteiner {
+        .curriculum-vitae {
+            width: 100%;
+            height: 100vh;
         }
     }
 }
@@ -160,8 +153,8 @@
 //////////////*/
 
 @media only screen and (max-width: 480px) {
-    .div {
-        .div__tittle {
+    .tittle-conteiner {
+        .tittle-text {
             font-size: 2.4rem;
             line-height: normal;
         }
@@ -169,21 +162,21 @@
     h2 {
         font-size: 2.0rem;
     }
-    .nav {
+    .nav-conteiner {
         display: none;
     }
-    .ham {
+    .ham-menu {
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
         display: flex;
         width: 100px;
-        .ham__img {
+        .ham-img {
             max-width: 50px;
             max-height: 50px;
             color: rgb(255, 255, 255);
         }
-        .ham__ul {
+        .ham-list {
             list-style: none;
-            .ham__li {
+            .ham-item {
                 display: inline-block;
                 a {
                     display: block;
@@ -193,28 +186,28 @@
                     transition: all 0.4s linear;
                     border-radius: 2px;
                 }
-                .ham__links {
+                .ham-links {
                     position: absolute;
                     display: none;
                 }
             }
-            .ham__li:hover {
-                .ham__links {
+            .ham-item:hover {
+                .ham-links {
                     display: block;
                 }
             }
         }
     }
-    .ham__ul--padding,
-    .ham__links--padding {
+    .ham-list,
+    .ham-links {
         margin: 0;
         padding: 0;
         padding-right: 150px;
     }
-    .ham {
-        .ham__ul {
-            .ham__links {
-                .ham__link {
+    .ham-menu {
+        .ham-list {
+            .ham-links {
+                .ham-link {
                     display: block;
                 }
             }
@@ -232,20 +225,19 @@
             }
         }
     }
-    .perfil {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        .perfil__description {
+    .perfil-conteiner {
+        .perfil-description {
             width: auto;
             height: auto;
-            p {
+            .perfil-text {
                 font-size: 1.2rem;
             }
         }
-    }
-    .perfil__image {
-        width: 100%;
+        .curriculum-conteiner {
+            .curriculum-vitae {
+                height: 40vh;
+            }
+        }
     }
     .footer-nav {
         display: flex;
@@ -257,14 +249,16 @@
     .footer-media {
         display: flex;
     }
-    .footerList li {
-        display: block;
+    .footerList {
+        li {
+            display: block;
+        }
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .div {
-        .div__tittle {
+    .tittle-conteiner {
+        .tittle-text {
             font-size: 3rem;
             line-height: normal;
         }
@@ -275,21 +269,21 @@
     p {
         font-size: 1.5rem;
     }
-    .nav {
+    .nav-conteiner {
         display: none;
     }
-    .ham {
+    .ham-menu {
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
         display: flex;
         width: 100px;
-        .ham__img {
+        .ham-img {
             max-width: 50px;
             max-height: 50px;
             color: rgb(255, 255, 255);
         }
-        .ham__ul {
+        .ham-list {
             list-style: none;
-            .ham__li {
+            .ham-item {
                 display: inline-block;
                 a {
                     display: block;
@@ -299,28 +293,28 @@
                     transition: all 0.4s linear;
                     border-radius: 2px;
                 }
-                .ham__links {
+                .ham-links {
                     position: absolute;
                     display: none;
                 }
             }
-            .ham__li:hover {
-                .ham__links {
+            .ham-item:hover {
+                .ham-links {
                     display: block;
                 }
             }
         }
     }
-    .ham__ul--padding,
-    .ham__links--padding {
+    .ham-list,
+    .ham-links {
         margin: 0;
         padding: 0;
         padding-right: 150px;
     }
-    .ham {
-        .ham__ul {
-            .ham__links {
-                .ham__link {
+    .ham-menu {
+        .ham-list {
+            .ham-links {
+                .ham-link {
                     display: block;
                 }
             }
@@ -338,15 +332,15 @@
             }
         }
     }
-    .perfil {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        .perfil__description {
-            width: 350px;
-            height: 100%;
-            .perfil__text {
+    .perfil-conteiner {
+        .perfil-description {
+            .perfil-text {
                 font-size: 1.5rem;
+            }
+        }
+        .curriculum-conteiner {
+            .curriculum-vitae {
+                height: 62vh;
             }
         }
     }
@@ -385,5 +379,12 @@
     p {
         font-size: 1.8rem;
         font-weight: bolder;
+    }
+    .perfil-conteiner {
+        .curriculum-conteiner {
+            .curriculum-vitae {
+                height: 1500px;
+            }
+        }
     }
 }

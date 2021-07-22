@@ -1,5 +1,4 @@
-@charset "UTF-8";
-.animation, .header .nav .nav__ul .nav__li a:hover, .footer .footer-list .footer-animation a:hover {
+.animation, .header-conteiner .nav-conteiner .nav-list .nav-item a:hover, .footer .footer-list .footer-animation a:hover {
   background-color: #8d8c8c;
   transition: all 0.4s linear;
   border-radius: 2px; }
@@ -12,7 +11,7 @@
     border-radius: 2px;
 
 }*/
-.button, #newsletter .news .news__form .news__btn .news__submit--btn, .main-index .call-to-action .boton {
+.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .boton {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 10px 26px;
@@ -46,59 +45,58 @@ p {
 .conteiner {
   padding: 1.5rem 0; }
 
-.div {
+.tittle-conteiner {
   padding: 0; }
-  .div .div__tittle {
+  .tittle-conteiner .tittle-text {
     color: white;
     text-align: center;
     font-weight: 900;
     font-size: 4rem;
-    line-height: 80px; }
-  .div .div__text {
+    line-height: 80px;
+    margin: 0 0 50px 0; }
+  .tittle-conteiner .tittle-description {
     text-align: center;
     margin: 0px; }
-  .div .div__tittle--space {
-    margin: 0 0 50px 0; }
 
 #newsletter {
   background: #8d8c8c;
   display: flex;
   justify-content: center; }
-  #newsletter .news {
+  #newsletter .news-conteiner {
     width: 80%;
     max-width: 600px;
     text-align: center; }
-    #newsletter .news .news__tittle {
+    #newsletter .news-conteiner .news-tittle {
       font-weight: 300;
       font-size: 2rem;
       margin-bottom: 40px; }
-    #newsletter .news .news__form .news__inputs {
+    #newsletter .news-conteiner .news-form .news-inputs {
       width: 100%;
       display: flex;
       justify-content: space-between; }
-      #newsletter .news .news__form .news__inputs .news__input {
+      #newsletter .news-conteiner .news-form .news-inputs .news-input {
         height: 50px;
         line-height: 50px;
         width: 100%;
         border: none;
         margin-bottom: 20px;
-        padding: 0 20px; }
-      #newsletter .news .news__form .news__inputs .news__input--space {
+        padding: 0 20px;
         margin-right: 20px; }
-    #newsletter .news .news__form .news__btn .news__submit {
+    #newsletter .news-conteiner .news-form .news-btn .news-submit {
       border: none;
       color: white;
       background: #0f0d0e;
       border: 1px solid #0f0d0e;
       font-weight: 300;
       padding: 0, 50px;
-      transition: .3s ease all; }
-    #newsletter .news .news__form .news__btn .news__submit:hover {
+      transition: .3s ease all;
+      margin-left: -20px; }
+    #newsletter .news-conteiner .news-form .news-btn .news-submit:hover {
       color: white;
       border: 2px solid whitesmoke;
       transform: scale(1.1); }
 
-.animation, .header .nav .nav__ul .nav__li a:hover, .footer .footer-list .footer-animation a:hover {
+.animation, .header-conteiner .nav-conteiner .nav-list .nav-item a:hover, .footer .footer-list .footer-animation a:hover {
   background-color: #8d8c8c;
   transition: all 0.4s linear;
   border-radius: 2px; }
@@ -111,7 +109,7 @@ p {
     border-radius: 2px;
 
 }*/
-.button, #newsletter .news .news__form .news__btn .news__submit--btn, .main-index .call-to-action .boton {
+.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .boton {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 10px 26px;
@@ -119,7 +117,7 @@ p {
   border-radius: 2px;
   transition-duration: 1s; }
 
-.header {
+.header-conteiner {
   display: flex;
   background-color: #0f0d0e;
   justify-content: space-between;
@@ -129,25 +127,25 @@ p {
   top: 0;
   width: 100%;
   z-index: 1; }
-  .header a {
+  .header-conteiner a {
     color: white;
     text-decoration: none; }
-  .header .logo__img {
+  .header-conteiner .logo-img {
     max-width: 100px;
     max-height: 100px; }
-  .header .nav {
+  .header-conteiner .nav-conteiner {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
-    .header .nav .nav__ul {
+    .header-conteiner .nav-conteiner .nav-list {
       margin: 0;
       padding: 0;
       list-style: none; }
-      .header .nav .nav__ul .nav__li {
+      .header-conteiner .nav-conteiner .nav-list .nav-item {
         display: inline-block; }
-        .header .nav .nav__ul .nav__li a {
+        .header-conteiner .nav-conteiner .nav-list .nav-item a {
           display: block;
           padding: 0.5rem 1rem; }
 
-.ham {
+.ham-menu {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   display: none; }
 
@@ -177,7 +175,7 @@ p {
     .footer .footer-list .footer-animation a:hover {
       padding: 0 2px; }
 
-.animation, .header .nav .nav__ul .nav__li a:hover, .footer .footer-list .footer-animation a:hover {
+.animation, .header-conteiner .nav-conteiner .nav-list .nav-item a:hover, .footer .footer-list .footer-animation a:hover {
   background-color: #8d8c8c;
   transition: all 0.4s linear;
   border-radius: 2px; }
@@ -190,7 +188,7 @@ p {
     border-radius: 2px;
 
 }*/
-.button, #newsletter .news .news__form .news__btn .news__submit--btn, .main-index .call-to-action .boton {
+.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .boton {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 10px 26px;
@@ -243,25 +241,17 @@ p {
   width: 100%; }
 
 /*//////////
-    Sobre Mí
+  Curriculum
 //////////*/
-.perfil {
-  display: flex;
-  column-gap: 20px;
-  justify-content: center; }
-  .perfil .perfil__conteiner {
-    height: 250px;
-    justify-self: end; }
-    .perfil .perfil__conteiner .perfil__image {
-      max-height: 350px;
-      max-width: 350px; }
-  .perfil .perfil__description {
-    width: 500px;
-    height: 100%;
-    justify-self: start; }
-    .perfil .perfil__description .perfil__text {
-      font-size: 1.5rem;
-      text-align: start; }
+.perfil-conteiner .perfil-description {
+  justify-self: start; }
+  .perfil-conteiner .perfil-description .perfil-text {
+    font-size: 1.5rem;
+    text-align: start; }
+
+.perfil-conteiner .curriculum-conteiner .curriculum-vitae {
+  width: 100%;
+  height: 100vh; }
 
 /*////////////
     Portafolio
@@ -319,42 +309,42 @@ p {
    Media queries
 //////////////*/
 @media only screen and (max-width: 480px) {
-  .div .div__tittle {
+  .tittle-conteiner .tittle-text {
     font-size: 2.4rem;
     line-height: normal; }
   h2 {
     font-size: 2.0rem; }
-  .nav {
+  .nav-conteiner {
     display: none; }
-  .ham {
+  .ham-menu {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
     display: flex;
     width: 100px; }
-    .ham .ham__img {
+    .ham-menu .ham-img {
       max-width: 50px;
       max-height: 50px;
       color: white; }
-    .ham .ham__ul {
+    .ham-menu .ham-list {
       list-style: none; }
-      .ham .ham__ul .ham__li {
+      .ham-menu .ham-list .ham-item {
         display: inline-block; }
-        .ham .ham__ul .ham__li a {
+        .ham-menu .ham-list .ham-item a {
           display: block; }
-        .ham .ham__ul .ham__li a:hover {
+        .ham-menu .ham-list .ham-item a:hover {
           background-color: #8d8c8c;
           transition: all 0.4s linear;
           border-radius: 2px; }
-        .ham .ham__ul .ham__li .ham__links {
+        .ham-menu .ham-list .ham-item .ham-links {
           position: absolute;
           display: none; }
-      .ham .ham__ul .ham__li:hover .ham__links {
+      .ham-menu .ham-list .ham-item:hover .ham-links {
         display: block; }
-  .ham__ul--padding,
-  .ham__links--padding {
+  .ham-list,
+  .ham-links {
     margin: 0;
     padding: 0;
     padding-right: 150px; }
-  .ham .ham__ul .ham__links .ham__link {
+  .ham-menu .ham-list .ham-links .ham-link {
     display: block; }
   .call-to-action {
     margin-top: 0;
@@ -362,17 +352,13 @@ p {
   .carousel-inner .carousel-item img {
     width: 100%;
     height: auto; }
-  .perfil {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .perfil .perfil__description {
-      width: auto;
-      height: auto; }
-      .perfil .perfil__description p {
-        font-size: 1.2rem; }
-  .perfil__image {
-    width: 100%; }
+  .perfil-conteiner .perfil-description {
+    width: auto;
+    height: auto; }
+    .perfil-conteiner .perfil-description .perfil-text {
+      font-size: 1.2rem; }
+  .perfil-conteiner .curriculum-conteiner .curriculum-vitae {
+    height: 40vh; }
   .footer-nav {
     display: flex;
     padding: 20px 0;
@@ -385,44 +371,44 @@ p {
     display: block; } }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .div .div__tittle {
+  .tittle-conteiner .tittle-text {
     font-size: 3rem;
     line-height: normal; }
   h2 {
     font-size: 2.5rem; }
   p {
     font-size: 1.5rem; }
-  .nav {
+  .nav-conteiner {
     display: none; }
-  .ham {
+  .ham-menu {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
     display: flex;
     width: 100px; }
-    .ham .ham__img {
+    .ham-menu .ham-img {
       max-width: 50px;
       max-height: 50px;
       color: white; }
-    .ham .ham__ul {
+    .ham-menu .ham-list {
       list-style: none; }
-      .ham .ham__ul .ham__li {
+      .ham-menu .ham-list .ham-item {
         display: inline-block; }
-        .ham .ham__ul .ham__li a {
+        .ham-menu .ham-list .ham-item a {
           display: block; }
-        .ham .ham__ul .ham__li a:hover {
+        .ham-menu .ham-list .ham-item a:hover {
           background-color: #8d8c8c;
           transition: all 0.4s linear;
           border-radius: 2px; }
-        .ham .ham__ul .ham__li .ham__links {
+        .ham-menu .ham-list .ham-item .ham-links {
           position: absolute;
           display: none; }
-      .ham .ham__ul .ham__li:hover .ham__links {
+      .ham-menu .ham-list .ham-item:hover .ham-links {
         display: block; }
-  .ham__ul--padding,
-  .ham__links--padding {
+  .ham-list,
+  .ham-links {
     margin: 0;
     padding: 0;
     padding-right: 150px; }
-  .ham .ham__ul .ham__links .ham__link {
+  .ham-menu .ham-list .ham-links .ham-link {
     display: block; }
   .call-to-action {
     margin-top: 0;
@@ -430,15 +416,10 @@ p {
   .carousel-inner .carousel-item img {
     width: 100%;
     height: auto; }
-  .perfil {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .perfil .perfil__description {
-      width: 350px;
-      height: 100%; }
-      .perfil .perfil__description .perfil__text {
-        font-size: 1.5rem; } }
+  .perfil-conteiner .perfil-description .perfil-text {
+    font-size: 1.5rem; }
+  .perfil-conteiner .curriculum-conteiner .curriculum-vitae {
+    height: 62vh; } }
 
 @media only screen and (min-width: 768px) {
   h1 {
@@ -464,4 +445,6 @@ p {
 @media only screen and (min-width: 1200px) {
   p {
     font-size: 1.8rem;
-    font-weight: bolder; } }
+    font-weight: bolder; }
+  .perfil-conteiner .curriculum-conteiner .curriculum-vitae {
+    height: 1500px; } }
