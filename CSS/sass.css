@@ -253,6 +253,9 @@ p {
   width: 100%;
   height: 100vh; }
 
+.perfil-conteiner .curriculum-conteiner .curriculum-link {
+  display: none; }
+
 /*////////////
     Portafolio
 ////////////*/
@@ -321,7 +324,7 @@ p {
     display: flex;
     width: 100px; }
     .ham-menu .ham-img {
-      max-width: 50px;
+      max-width: 80px;
       max-height: 50px;
       color: white; }
     .ham-menu .ham-list {
@@ -329,7 +332,9 @@ p {
       .ham-menu .ham-list .ham-item {
         display: inline-block; }
         .ham-menu .ham-list .ham-item a {
-          display: block; }
+          display: block;
+          background-color: #0f0d0e;
+          padding: 2px; }
         .ham-menu .ham-list .ham-item a:hover {
           background-color: #8d8c8c;
           transition: all 0.4s linear;
@@ -358,7 +363,12 @@ p {
     .perfil-conteiner .perfil-description .perfil-text {
       font-size: 1.2rem; }
   .perfil-conteiner .curriculum-conteiner .curriculum-vitae {
-    height: 40vh; }
+    display: none; }
+  .perfil-conteiner .curriculum-conteiner .curriculum-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    display: flex; }
   .footer-nav {
     display: flex;
     padding: 20px 0;
@@ -385,7 +395,7 @@ p {
     display: flex;
     width: 100px; }
     .ham-menu .ham-img {
-      max-width: 50px;
+      max-width: 80px;
       max-height: 50px;
       color: white; }
     .ham-menu .ham-list {
@@ -393,7 +403,9 @@ p {
       .ham-menu .ham-list .ham-item {
         display: inline-block; }
         .ham-menu .ham-list .ham-item a {
-          display: block; }
+          display: block;
+          background-color: #0f0d0e;
+          padding: 2px; }
         .ham-menu .ham-list .ham-item a:hover {
           background-color: #8d8c8c;
           transition: all 0.4s linear;

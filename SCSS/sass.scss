@@ -84,6 +84,9 @@
             width: 100%;
             height: 100vh;
         }
+        .curriculum-link {
+            display: none;
+        }
     }
 }
 
@@ -170,7 +173,7 @@
         display: flex;
         width: 100px;
         .ham-img {
-            max-width: 50px;
+            max-width: 80px;
             max-height: 50px;
             color: rgb(255, 255, 255);
         }
@@ -180,6 +183,8 @@
                 display: inline-block;
                 a {
                     display: block;
+                    background-color: #0f0d0e;
+                    padding: 2px;
                 }
                 a:hover {
                     background-color: rgb(141, 140, 140);
@@ -235,7 +240,13 @@
         }
         .curriculum-conteiner {
             .curriculum-vitae {
-                height: 40vh;
+                display: none;
+            }
+            .curriculum-link {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: $text-color;
+                display: flex;
             }
         }
     }
@@ -277,7 +288,7 @@
         display: flex;
         width: 100px;
         .ham-img {
-            max-width: 50px;
+            max-width: 80px;
             max-height: 50px;
             color: rgb(255, 255, 255);
         }
@@ -287,6 +298,8 @@
                 display: inline-block;
                 a {
                     display: block;
+                    background-color: #0f0d0e;
+                    padding: 2px;
                 }
                 a:hover {
                     background-color: rgb(141, 140, 140);
