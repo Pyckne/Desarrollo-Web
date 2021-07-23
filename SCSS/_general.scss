@@ -69,11 +69,9 @@ p {
                 .news-input {
                     height: 50px;
                     line-height: 50px;
-                    width: 100%;
-                    border: none;
+                    width: 48%;
                     margin-bottom: 20px;
                     padding: 0 20px;
-                    margin-right: 20px;
                 }
             }
             .news-btn {
@@ -85,7 +83,6 @@ p {
                     font-weight: 300;
                     padding: 0, 50px;
                     transition: .3s ease all;
-                    margin-left: -20px;
                     &-btn {
                         @extend .button;
                     }

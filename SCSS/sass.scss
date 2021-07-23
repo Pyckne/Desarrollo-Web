@@ -156,6 +156,7 @@
 //////////////*/
 
 @media only screen and (max-width: 480px) {
+    ///////Titulos en general
     .tittle-conteiner {
         .tittle-text {
             font-size: 2.4rem;
@@ -165,6 +166,7 @@
     h2 {
         font-size: 2.0rem;
     }
+    ///////Hamburguer Menu
     .nav-conteiner {
         display: none;
     }
@@ -218,10 +220,12 @@
             }
         }
     }
+    ///////Call to Action Index
     .call-to-action {
         margin-top: 0;
         padding-bottom: 0;
     }
+    ///////Portafolio Slider
     .carousel-inner {
         .carousel-item {
             img {
@@ -230,6 +234,7 @@
             }
         }
     }
+    ///////Perfil de Curriculum
     .perfil-conteiner {
         .perfil-description {
             width: auto;
@@ -248,8 +253,12 @@
                 color: $text-color;
                 display: flex;
             }
+            .curriculum-link:hover {
+                color: $grey-color;
+            }
         }
     }
+    ///////Footer
     .footer-nav {
         display: flex;
         padding: 20px 0;
@@ -268,6 +277,7 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+    ///////Titulos en general
     .tittle-conteiner {
         .tittle-text {
             font-size: 3rem;
@@ -280,6 +290,7 @@
     p {
         font-size: 1.5rem;
     }
+    ///////Hamburguer Menu
     .nav-conteiner {
         display: none;
     }
@@ -333,10 +344,12 @@
             }
         }
     }
+    ///////Call to Action Index
     .call-to-action {
         margin-top: 0;
         padding-bottom: 0;
     }
+    ///////Portafolio Slider
     .carousel-inner {
         .carousel-item {
             img {
@@ -345,6 +358,7 @@
             }
         }
     }
+    ///////Perfil de Curriculum
     .perfil-conteiner {
         .perfil-description {
             .perfil-text {
@@ -392,6 +406,7 @@
     p {
         font-size: 1.8rem;
     }
+    ///////Perfil de curriculum
     .perfil-conteiner {
         .curriculum-conteiner {
             .curriculum-vitae {
