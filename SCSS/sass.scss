@@ -76,7 +76,7 @@
         justify-self: start;
         .perfil-text {
             font-size: 1.5rem;
-            text-align: start;
+            text-align: center;
         }
     }
     .curriculum-conteiner {
@@ -100,6 +100,10 @@
         img {
             width: 100%;
             height: 670px;
+        }
+        .carousel-text,
+        .carousel-tittle {
+            color: $black-color;
         }
     }
 }
@@ -175,7 +179,7 @@
         display: flex;
         width: 100px;
         .ham-img {
-            max-width: 80px;
+            max-width: 50px;
             max-height: 50px;
             color: rgb(255, 255, 255);
         }
