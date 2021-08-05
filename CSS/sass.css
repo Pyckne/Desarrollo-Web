@@ -45,16 +45,16 @@ p {
 .conteiner {
   padding: 1.5rem 0; }
 
-.tittle-conteiner {
+.title-conteiner {
   padding: 0; }
-  .tittle-conteiner .tittle-text {
+  .title-conteiner .title-text {
     color: white;
     text-align: center;
     font-weight: 900;
     font-size: 4rem;
     line-height: 80px;
     margin: 0 0 50px 0; }
-  .tittle-conteiner .tittle-description {
+  .title-conteiner .title-description {
     text-align: center;
     margin: 0px; }
 
@@ -66,7 +66,7 @@ p {
     width: 80%;
     max-width: 600px;
     text-align: center; }
-    #newsletter .news-conteiner .news-tittle {
+    #newsletter .news-conteiner .news-title {
       font-weight: 300;
       font-size: 2rem;
       margin-bottom: 40px; }
@@ -258,7 +258,7 @@ p {
   height: 670px; }
 
 .carousel-inner .carousel-item .carousel-text,
-.carousel-inner .carousel-item .carousel-tittle {
+.carousel-inner .carousel-item .carousel-title {
   color: #0f0d0e; }
 
 /*/////////
@@ -310,7 +310,7 @@ p {
    Media queries
 //////////////*/
 @media only screen and (max-width: 480px) {
-  .tittle-conteiner .tittle-text {
+  .title-conteiner .title-text {
     font-size: 2.4rem;
     line-height: normal; }
   h2 {
@@ -381,7 +381,7 @@ p {
     display: block; } }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .tittle-conteiner .tittle-text {
+  .title-conteiner .title-text {
     font-size: 3rem;
     line-height: normal; }
   h2 {

@@ -32,9 +32,9 @@ p {
     padding: 1.5rem 0;
 }
 
-.tittle-conteiner {
+.title-conteiner {
     padding: 0;
-    .tittle-text {
+    .title-text {
         color: $text-color;
         text-align: center;
         font-weight: 900;
@@ -42,7 +42,7 @@ p {
         line-height: 80px;
         margin: 0 0 50px 0;
     }
-    .tittle-description {
+    .title-description {
         text-align: center;
         margin: 0px;
     }
@@ -56,7 +56,7 @@ p {
         width: 80%;
         max-width: 600px;
         text-align: center;
-        .news-tittle {
+        .news-title {
             font-weight: 300;
             font-size: 2rem;
             margin-bottom: 40px;
