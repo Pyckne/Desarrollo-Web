@@ -240,11 +240,9 @@ p {
 /*//////////
   Curriculum
 //////////*/
-.perfil-conteiner .perfil-description {
-  justify-self: start; }
-  .perfil-conteiner .perfil-description .perfil-text {
-    font-size: 1.5rem;
-    text-align: center; }
+.perfil-conteiner .perfil-description .perfil-text {
+  font-size: 1.5rem;
+  text-align: center; }
 
 .perfil-conteiner .curriculum-conteiner .curriculum-vitae {
   width: 100%;
