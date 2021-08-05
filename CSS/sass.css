@@ -81,12 +81,11 @@ p {
         margin-bottom: 20px;
         padding: 0 20px; }
     #newsletter .news-conteiner .news-form .news-btn .news-submit {
-      border: none;
       color: white;
       background: #0f0d0e;
       border: 1px solid #0f0d0e;
       font-weight: 300;
-      padding: 0, 50px;
+      padding: 0 50px;
       transition: .3s ease all; }
     #newsletter .news-conteiner .news-form .news-btn .news-submit:hover {
       color: white;

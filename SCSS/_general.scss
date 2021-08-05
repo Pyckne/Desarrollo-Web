@@ -76,12 +76,11 @@ p {
             }
             .news-btn {
                 .news-submit {
-                    border: none;
                     color: $text-color;
                     background: $black-color;
                     border: 1px solid $black-color;
                     font-weight: 300;
-                    padding: 0, 50px;
+                    padding: 0 50px;
                     transition: .3s ease all;
                     &-btn {
                         @extend .button;
