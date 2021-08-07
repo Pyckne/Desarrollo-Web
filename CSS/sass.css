@@ -237,6 +237,9 @@ p {
 
 .grupo-formulario {
   margin-bottom: 0.8rem; }
+  .grupo-formulario .form-label {
+    font-size: 1.1rem;
+    color: white; }
 
 .boton-contacto {
   width: 100%; }
@@ -358,8 +361,7 @@ p {
     padding-bottom: 0; }
   #newsletter .news-conteiner .news-form .news-inputs {
     flex-direction: column;
-    align-content: center;
-    align-items: center; }
+    align-content: center; }
   .carousel-inner .carousel-item img {
     width: 100%;
     height: auto; }

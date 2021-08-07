@@ -60,6 +60,10 @@
 
 .grupo-formulario {
     margin-bottom: 0.8rem;
+    .form-label {
+        font-size: 1.1rem;
+        color: $text-color;
+    }
 }
 
 .boton-contacto {
@@ -234,7 +238,6 @@
                 .news-inputs {
                     flex-direction: column;
                     align-content: center;
-                    align-items: center;
                 }
             }
         }
