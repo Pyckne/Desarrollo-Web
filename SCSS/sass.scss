@@ -254,6 +254,7 @@
                 font-weight: bold;
                 color: $text-color;
                 display: flex;
+                justify-content: center;
             }
             .curriculum-link:hover {
                 color: $grey-color;
