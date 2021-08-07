@@ -227,6 +227,18 @@
         margin-top: 0;
         padding-bottom: 0;
     }
+    ///////Newsletter
+    #newsletter {
+        .news-conteiner {
+            .news-form {
+                .news-inputs {
+                    flex-direction: column;
+                    align-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
     ///////Portafolio Slider
     .carousel-inner {
         .carousel-item {

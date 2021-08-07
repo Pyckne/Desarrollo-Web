@@ -73,13 +73,18 @@ p {
     #newsletter .news-conteiner .news-form .news-inputs {
       width: 100%;
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      flex-wrap: wrap; }
       #newsletter .news-conteiner .news-form .news-inputs .news-input {
         height: 50px;
         line-height: 50px;
-        width: 48%;
+        width: 69%;
         margin-bottom: 20px;
         padding: 0 20px; }
+      #newsletter .news-conteiner .news-form .news-inputs .news-label {
+        font-size: 1.5rem;
+        width: 119px;
+        line-height: 50px; }
     #newsletter .news-conteiner .news-form .news-btn .news-submit {
       color: white;
       background: #0f0d0e;
@@ -351,6 +356,10 @@ p {
   .call-to-action {
     margin-top: 0;
     padding-bottom: 0; }
+  #newsletter .news-conteiner .news-form .news-inputs {
+    flex-direction: column;
+    align-content: center;
+    align-items: center; }
   .carousel-inner .carousel-item img {
     width: 100%;
     height: auto; }
