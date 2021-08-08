@@ -194,7 +194,7 @@ p {
     Home
 //////*/
 .main-index {
-  background-image: url(../Media/MainBackground.jpg);
+  background-image: url(../media/MainBackground.jpg);
   background-size: cover; }
   .main-index .call-to-action {
     margin-top: 75px;
