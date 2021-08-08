@@ -61,6 +61,7 @@ p {
         max-width: 600px;
         text-align: center;
         .news-title {
+            color: $var-white;
             font-weight: 300;
             font-size: 2rem;
             margin-bottom: 40px;
@@ -79,6 +80,7 @@ p {
                     padding: 0 20px;
                 }
                 .news-label {
+                    color: $var-white;
                     font-size: 1.5rem;
                     width: 119px;
                     line-height: 50px;
