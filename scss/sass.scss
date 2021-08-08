@@ -1,0 +1,380 @@
+@import "general";
+@import "header";
+@import "footer";
+@import "colores";
+
+/*//////
+    Home
+//////*/
+
+.main-index {
+    background-image: url(../Media/MainBackground.jpg);
+    background-size: cover;
+    .call-to-action {
+        margin-top: 75px;
+        padding-bottom: 50px;
+        text-align: center;
+        .linkedin-btn {
+            @extend .button;
+            display: inline-block;
+        }
+        .primary-btn {
+            background-color: $btn-white;
+            color: black;
+            border: 2px solid $btn-white;
+            .arrow-img {
+                vertical-align: middle;
+            }
+        }
+        .primary-btn:hover {
+            background-color: $btn-white;
+            color: black;
+            border: 2px solid $btn-white;
+            transform: scale(1.1);
+        }
+        .primary-btn:focus {
+            background-color: whitesmoke;
+            outline: none;
+            border: 2px solid whitesmoke;
+            box-shadow: none;
+        }
+    }
+}
+
+
+/*//////////
+    Contacto
+//////////*/
+
+.main-contact {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.contact-text {
+    p {
+        text-align: start;
+    }
+}
+
+.form-group {
+    margin-bottom: 0.8rem;
+    .form-label {
+        font-size: 1.1rem;
+        color: $text-color;
+    }
+}
+
+.btn-contact {
+    width: 100%;
+}
+
+
+/*//////////
+  Curriculum
+//////////*/
+
+.perfil-conteiner {
+    .perfil-description {
+        .perfil-text {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    }
+    .curriculum-conteiner {
+        .curriculum-vitae {
+            width: 100%;
+            height: 100vh;
+        }
+        .curriculum-link {
+            display: none;
+        }
+    }
+}
+
+
+/*////////////
+    Portafolio
+////////////*/
+
+.carousel-inner {
+    .carousel-item {
+        img {
+            width: 100%;
+            height: 670px;
+        }
+        .carousel-text,
+        .carousel-title {
+            color: $black-color;
+        }
+    }
+}
+
+
+/*/////////
+    Valores
+/////////*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    .pricing-container {
+        margin: 15px 0;
+        .package {
+            min-width: unset;
+            padding: 40px 20px;
+        }
+        .starter-pack {
+            @include package ($var-white, $obscure-color)
+        }
+        .business-pack {
+            @include package ($obscure-color, $obscure-color);
+            color: $var-white;
+        }
+        .package,
+        .starter-pack,
+        .business-pack {
+            .btn {
+                font-size: 14px;
+                padding: 15px 26px;
+                min-width: 160px;
+                border-radius: 2px;
+                display: inline-block;
+            }
+            .first-btn {
+                @include bnt-default ($obscure-color, $text-color, $black-price);
+            }
+            .second-btn {
+                @include bnt-default (transparent, $text-color, $btn-white);
+            }
+            .full-width {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+/*////////////// 
+   Media queries
+//////////////*/
+
+@media only screen and (max-width: 480px) {
+    ///////Titulos en general
+    .title-conteiner {
+        .title-text {
+            font-size: 2.4rem;
+            line-height: normal;
+        }
+    }
+    h2 {
+        font-size: 2.0rem;
+    }
+    ///////Hamburguer Menu
+    .header-conteiner {
+        flex-direction: column;
+        align-items: flex-start;
+        .nav-conteiner {
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            .nav-list {
+                display: flex;
+                flex-direction: column;
+                .nav-item {
+                    width: 100%;
+                    text-align: center;
+                    a {
+                        padding: .5rem 1rem;
+                    }
+                }
+            }
+        }
+        .nav-conteiner.active {
+            display: flex;
+        }
+        .toggle-button {
+            display: flex;
+        }
+    }
+    ///////Call to Action Index
+    .call-to-action {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    ///////Newsletter
+    #newsletter {
+        .news-conteiner {
+            .news-form {
+                .news-inputs {
+                    flex-direction: column;
+                    align-content: center;
+                }
+            }
+        }
+    }
+    ///////Portafolio Slider
+    .carousel-inner {
+        .carousel-item {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    ///////Perfil de Curriculum
+    .perfil-conteiner {
+        .perfil-description {
+            width: auto;
+            height: auto;
+            .perfil-text {
+                font-size: 1.2rem;
+            }
+        }
+        .curriculum-conteiner {
+            .curriculum-vitae {
+                display: none;
+            }
+            .curriculum-link {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: $text-color;
+                display: flex;
+                justify-content: center;
+            }
+            .curriculum-link:hover {
+                color: $grey-color;
+            }
+        }
+    }
+    ///////Footer
+    .footer-nav {
+        display: flex;
+        padding: 20px 0;
+        font-size: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-media {
+        display: flex;
+    }
+    .footerList {
+        li {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    ///////Titulos en general
+    .title-conteiner {
+        .title-text {
+            font-size: 3rem;
+            line-height: normal;
+        }
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    ///////Hamburguer Menu
+    .header-conteiner {
+        flex-direction: column;
+        align-items: flex-start;
+        .nav-conteiner {
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            .nav-list {
+                display: flex;
+                flex-direction: column;
+                .nav-item {
+                    width: 100%;
+                    text-align: center;
+                    a {
+                        padding: .5rem 1rem;
+                    }
+                }
+            }
+        }
+        .nav-conteiner.active {
+            display: flex;
+        }
+        .toggle-button {
+            display: flex;
+        }
+    }
+    ///////Call to Action Index
+    .call-to-action {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    ///////Portafolio Slider
+    .carousel-inner {
+        .carousel-item {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    ///////Perfil de Curriculum
+    .perfil-conteiner {
+        .perfil-description {
+            .perfil-text {
+                font-size: 1.5rem;
+            }
+        }
+        .curriculum-conteiner {
+            .curriculum-vitae {
+                height: 62vh;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: normal;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h2 {
+        font-size: 3.5rem;
+    }
+    p {
+        font-size: 1.7rem;
+    }
+    .main-index,
+    .main-about-me,
+    .main-contact {
+        min-height: 681px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    p {
+        font-size: 1.8rem;
+    }
+    ///////Perfil de curriculum
+    .perfil-conteiner {
+        .curriculum-conteiner {
+            .curriculum-vitae {
+                height: 1500px;
+            }
+        }
+    }
+}

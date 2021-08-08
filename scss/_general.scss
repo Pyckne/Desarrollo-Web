@@ -1,0 +1,107 @@
+@import "colores";
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.main {
+    padding: 2rem 11%;
+}
+
+h3 {
+    font-size: 2rem;
+    color: $obscure-color;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    color: $text-color;
+}
+
+.main-contact,
+.main-values,
+.main-portfolio,
+.main-about-me {
+    background: linear-gradient(to bottom, #8a9299, #2c3e50);
+}
+
+.conteiner {
+    padding: 1.5rem 0;
+}
+
+.title-conteiner {
+    padding: 0;
+    .title-text {
+        color: $text-color;
+        text-align: center;
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 80px;
+        margin: 0 0 50px 0;
+    }
+    .title-description {
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+#newsletter {
+    background: $grey-color;
+    display: flex;
+    justify-content: center;
+    .news-conteiner {
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+        .news-title {
+            font-weight: 300;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+        .news-form {
+            .news-inputs {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .news-input {
+                    height: 50px;
+                    line-height: 50px;
+                    width: 69%;
+                    margin-bottom: 20px;
+                    padding: 0 20px;
+                }
+                .news-label {
+                    font-size: 1.5rem;
+                    width: 119px;
+                    line-height: 50px;
+                }
+            }
+            .news-btn {
+                .news-submit {
+                    color: $text-color;
+                    background: $black-color;
+                    border: 1px solid $black-color;
+                    font-weight: 300;
+                    padding: 0 50px;
+                    transition: .3s ease all;
+                    &-btn {
+                        @extend .button;
+                    }
+                }
+                .news-submit:hover {
+                    color: $btn-effect;
+                    border: 2px solid $btn-white;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
