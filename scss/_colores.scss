@@ -1,6 +1,6 @@
 //Header-Footer backgraund color
 $black-color: #0f0d0e;
-$grey-color: rgb(141, 140, 140);
+$grey-color: rgb(73, 71, 71);
 $obscure-color: rgb(37, 33, 33);
 $var-white: rgba(255, 255, 255, 0.767);
 //Tittle an text color
@@ -29,7 +29,7 @@ $black-price: #000000;
 }
 
 //Mixin
-@mixin package($bacolor, $color) {
+@mixin packages($bacolor, $color) {
     background-color: $bacolor;
     border: 2px solid $color;
 }

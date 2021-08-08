@@ -1,5 +1,5 @@
 .animation, .header-conteiner .nav-conteiner .nav-list .nav-item .nav-item-active, .header-conteiner .nav-conteiner .nav-list .nav-item a:hover, .footer .footer-list .footer-animation a:hover {
-  background-color: #8d8c8c;
+  background-color: #494747;
   transition: all 0.4s linear;
   border-radius: 2px; }
 
@@ -54,7 +54,7 @@ p {
     margin: 0px; }
 
 #newsletter {
-  background: #8d8c8c;
+  background: #494747;
   display: flex;
   justify-content: center; }
   #newsletter .news-conteiner {
@@ -93,7 +93,7 @@ p {
       transform: scale(1.1); }
 
 .animation, .header-conteiner .nav-conteiner .nav-list .nav-item .nav-item-active, .header-conteiner .nav-conteiner .nav-list .nav-item a:hover, .footer .footer-list .footer-animation a:hover {
-  background-color: #8d8c8c;
+  background-color: #494747;
   transition: all 0.4s linear;
   border-radius: 2px; }
 
@@ -179,7 +179,7 @@ p {
       padding: 0 2px; }
 
 .animation, .header-conteiner .nav-conteiner .nav-list .nav-item .nav-item-active, .header-conteiner .nav-conteiner .nav-list .nav-item a:hover, .footer .footer-list .footer-animation a:hover {
-  background-color: #8d8c8c;
+  background-color: #494747;
   transition: all 0.4s linear;
   border-radius: 2px; }
 
@@ -226,6 +226,10 @@ p {
 .main-contact p {
   font-size: 1.5rem; }
 
+.contact-text h2 {
+  font-size: 2rem;
+  color: #252121; }
+
 .contact-text p {
   text-align: start; }
 
@@ -263,6 +267,9 @@ p {
 .carousel-inner .carousel-item .carousel-title {
   color: #0f0d0e; }
 
+.carousel-inner .carousel-item .carousel-title {
+  font-size: 2rem; }
+
 /*/////////
     Valores
 /////////*/
@@ -283,6 +290,8 @@ p {
       background-color: #252121;
       border: 2px solid #252121;
       color: rgba(255, 255, 255, 0.767); }
+      .row .pricing-container .business-pack h3 {
+        color: rgba(255, 255, 255, 0.767); }
     .row .pricing-container .package .btn,
     .row .pricing-container .starter-pack .btn,
     .row .pricing-container .business-pack .btn {
@@ -359,7 +368,7 @@ p {
     display: flex;
     justify-content: center; }
   .perfil-conteiner .curriculum-conteiner .curriculum-link:hover {
-    color: #8d8c8c; }
+    color: #494747; }
   .footer-nav {
     display: flex;
     padding: 20px 0;

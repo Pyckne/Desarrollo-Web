@@ -53,6 +53,10 @@
 }
 
 .contact-text {
+    h2 {
+        font-size: 2rem;
+        color: $obscure-color;
+    }
     p {
         text-align: start;
     }
@@ -108,6 +112,9 @@
         .carousel-title {
             color: $black-color;
         }
+        .carousel-title {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -128,11 +135,14 @@
             padding: 40px 20px;
         }
         .starter-pack {
-            @include package ($var-white, $obscure-color)
+            @include packages ($var-white, $obscure-color)
         }
         .business-pack {
-            @include package ($obscure-color, $obscure-color);
+            @include packages ($obscure-color, $obscure-color);
             color: $var-white;
+            h3 {
+                color: $var-white;
+            }
         }
         .package,
         .starter-pack,
