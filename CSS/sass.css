@@ -132,6 +132,20 @@ p {
         .header-conteiner .nav-conteiner .nav-list .nav-item a {
           display: block;
           padding: 0.5rem 1rem; }
+  .header-conteiner .toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1.25rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 32px; }
+    .header-conteiner .toggle-button .bar {
+      height: 4px;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px; }
 
 .ham-menu {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
@@ -302,39 +316,25 @@ p {
     line-height: normal; }
   h2 {
     font-size: 2.0rem; }
-  .nav-conteiner {
-    display: none; }
-  .ham-menu {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-    display: flex;
-    width: 100px; }
-    .ham-menu .ham-img {
-      max-width: 50px;
-      max-height: 50px;
-      color: white; }
-    .ham-menu .ham-list {
-      list-style: none; }
-      .ham-menu .ham-list .ham-item {
-        display: inline-block; }
-        .ham-menu .ham-list .ham-item a {
-          display: block;
-          background-color: #0f0d0e;
-          padding: 3px; }
-        .ham-menu .ham-list .ham-item a:hover {
-          background-color: #8d8c8c;
-          transition: all 0.4s linear;
-          border-radius: 2px; }
-        .ham-menu .ham-list .ham-item .ham-links {
-          position: absolute;
-          display: none; }
-      .ham-menu .ham-list .ham-item:hover .ham-links {
-        display: block; }
-  .ham-list,
-  .ham-links {
-    margin: 0;
-    padding: 0; }
-  .ham-menu .ham-list .ham-links .ham-link {
-    display: block; }
+  .header-conteiner {
+    flex-direction: column;
+    align-items: flex-start; }
+    .header-conteiner .nav-conteiner {
+      width: 100%;
+      display: none;
+      flex-direction: column; }
+      .header-conteiner .nav-conteiner .nav-list {
+        display: flex;
+        flex-direction: column; }
+        .header-conteiner .nav-conteiner .nav-list .nav-item {
+          width: 100%;
+          text-align: center; }
+          .header-conteiner .nav-conteiner .nav-list .nav-item a {
+            padding: .5rem 1rem; }
+    .header-conteiner .nav-conteiner.active {
+      display: flex; }
+    .header-conteiner .toggle-button {
+      display: flex; }
   .call-to-action {
     margin-top: 0;
     padding-bottom: 0; }
@@ -378,39 +378,25 @@ p {
     font-size: 2.5rem; }
   p {
     font-size: 1.5rem; }
-  .nav-conteiner {
-    display: none; }
-  .ham-menu {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-    display: flex;
-    width: 100px; }
-    .ham-menu .ham-img {
-      max-width: 80px;
-      max-height: 50px;
-      color: white; }
-    .ham-menu .ham-list {
-      list-style: none; }
-      .ham-menu .ham-list .ham-item {
-        display: inline-block; }
-        .ham-menu .ham-list .ham-item a {
-          display: block;
-          background-color: #0f0d0e;
-          padding: 4px; }
-        .ham-menu .ham-list .ham-item a:hover {
-          background-color: #8d8c8c;
-          transition: all 0.4s linear;
-          border-radius: 2px; }
-        .ham-menu .ham-list .ham-item .ham-links {
-          position: absolute;
-          display: none; }
-      .ham-menu .ham-list .ham-item:hover .ham-links {
-        display: block; }
-  .ham-list,
-  .ham-links {
-    margin: 0;
-    padding: 0; }
-  .ham-menu .ham-list .ham-links .ham-link {
-    display: block; }
+  .header-conteiner {
+    flex-direction: column;
+    align-items: flex-start; }
+    .header-conteiner .nav-conteiner {
+      width: 100%;
+      display: none;
+      flex-direction: column; }
+      .header-conteiner .nav-conteiner .nav-list {
+        display: flex;
+        flex-direction: column; }
+        .header-conteiner .nav-conteiner .nav-list .nav-item {
+          width: 100%;
+          text-align: center; }
+          .header-conteiner .nav-conteiner .nav-list .nav-item a {
+            padding: .5rem 1rem; }
+    .header-conteiner .nav-conteiner.active {
+      display: flex; }
+    .header-conteiner .toggle-button {
+      display: flex; }
   .call-to-action {
     margin-top: 0;
     padding-bottom: 0; }
