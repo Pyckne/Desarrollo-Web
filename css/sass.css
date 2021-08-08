@@ -314,7 +314,12 @@ p {
 
 .perfil-conteiner .curriculum-conteiner .curriculum-vitae {
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+  text-align: center; }
+  .perfil-conteiner .curriculum-conteiner .curriculum-vitae a {
+    color: rgba(255, 255, 255, 0.767); }
+  .perfil-conteiner .curriculum-conteiner .curriculum-vitae a:focus-within {
+    color: tomato; }
 
 .perfil-conteiner .curriculum-conteiner .curriculum-link {
   display: none; }
