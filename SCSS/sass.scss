@@ -174,56 +174,30 @@
         font-size: 2.0rem;
     }
     ///////Hamburguer Menu
-    .nav-conteiner {
-        display: none;
-    }
-    .ham-menu {
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
-        display: flex;
-        width: 100px;
-        .ham-img {
-            max-width: 50px;
-            max-height: 50px;
-            color: rgb(255, 255, 255);
-        }
-        .ham-list {
-            list-style: none;
-            .ham-item {
-                display: inline-block;
-                a {
-                    display: block;
-                    background-color: #0f0d0e;
-                    padding: 3px;
-                }
-                a:hover {
-                    background-color: rgb(141, 140, 140);
-                    transition: all 0.4s linear;
-                    border-radius: 2px;
-                }
-                .ham-links {
-                    position: absolute;
-                    display: none;
-                }
-            }
-            .ham-item:hover {
-                .ham-links {
-                    display: block;
+    .header-conteiner {
+        flex-direction: column;
+        align-items: flex-start;
+        .nav-conteiner {
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            .nav-list {
+                display: flex;
+                flex-direction: column;
+                .nav-item {
+                    width: 100%;
+                    text-align: center;
+                    a {
+                        padding: .5rem 1rem;
+                    }
                 }
             }
         }
-    }
-    .ham-list,
-    .ham-links {
-        margin: 0;
-        padding: 0;
-    }
-    .ham-menu {
-        .ham-list {
-            .ham-links {
-                .ham-link {
-                    display: block;
-                }
-            }
+        .nav-conteiner.active {
+            display: flex;
+        }
+        .toggle-button {
+            display: flex;
         }
     }
     ///////Call to Action Index
@@ -309,56 +283,30 @@
         font-size: 1.5rem;
     }
     ///////Hamburguer Menu
-    .nav-conteiner {
-        display: none;
-    }
-    .ham-menu {
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
-        display: flex;
-        width: 100px;
-        .ham-img {
-            max-width: 80px;
-            max-height: 50px;
-            color: rgb(255, 255, 255);
-        }
-        .ham-list {
-            list-style: none;
-            .ham-item {
-                display: inline-block;
-                a {
-                    display: block;
-                    background-color: #0f0d0e;
-                    padding: 4px;
-                }
-                a:hover {
-                    background-color: rgb(141, 140, 140);
-                    transition: all 0.4s linear;
-                    border-radius: 2px;
-                }
-                .ham-links {
-                    position: absolute;
-                    display: none;
-                }
-            }
-            .ham-item:hover {
-                .ham-links {
-                    display: block;
+    .header-conteiner {
+        flex-direction: column;
+        align-items: flex-start;
+        .nav-conteiner {
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            .nav-list {
+                display: flex;
+                flex-direction: column;
+                .nav-item {
+                    width: 100%;
+                    text-align: center;
+                    a {
+                        padding: .5rem 1rem;
+                    }
                 }
             }
         }
-    }
-    .ham-list,
-    .ham-links {
-        margin: 0;
-        padding: 0;
-    }
-    .ham-menu {
-        .ham-list {
-            .ham-links {
-                .ham-link {
-                    display: block;
-                }
-            }
+        .nav-conteiner.active {
+            display: flex;
+        }
+        .toggle-button {
+            display: flex;
         }
     }
     ///////Call to Action Index
