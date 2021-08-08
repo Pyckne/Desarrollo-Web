@@ -168,6 +168,50 @@
 }
 
 
+/*///////////////
+    404 not found
+///////////////*/
+
+.main-404 {
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: calc(100vh - 268px);
+        .conteiner-404 {
+            text-align: center;
+            .title-404 {
+                font-size: 6rem;
+            }
+            .subt-404 {
+                font-size: 4rem;
+            }
+            .text-404 {
+                font-size: 2rem;
+            }
+        }
+        .error-home {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            .error-btn {
+                @extend .button;
+                background-color: $btn-white;
+                color: $obscure-color;
+                border: 2px solid $btn-white;
+            }
+            .error-btn:hover {
+                background: rgb(230, 189, 189);
+                color: black;
+                border: 2px solid rgb(230, 189, 189);
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+
 /*////////////// 
    Media queries
 //////////////*/
@@ -260,6 +304,32 @@
             }
         }
     }
+    ///////404
+    .main-404 {
+        padding: 2.5rem 11%;
+        .conteiner {
+            height: 100%;
+            .conteiner-404 {
+                .title-404 {
+                    font-size: 4rem;
+                }
+                .subt-404 {
+                    font-size: 2rem;
+                }
+                .text-404 {
+                    font-size: 1rem;
+                }
+            }
+            .error-home {
+                font-size: 1.2rem;
+                padding: 10px 20px;
+                .error-btn {
+                    font-size: 1rem;
+                    padding: 10px;
+                }
+            }
+        }
+    }
     ///////Footer
     .footer-nav {
         display: flex;
@@ -343,6 +413,30 @@
         .curriculum-conteiner {
             .curriculum-vitae {
                 height: 62vh;
+            }
+        }
+    }
+    ///////404
+    .main-404 {
+        .conteiner {
+            .conteiner-404 {
+                .title-404 {
+                    font-size: 5rem;
+                }
+                .subt-404 {
+                    font-size: 2.5rem;
+                }
+                .text-404 {
+                    font-size: 1.5rem;
+                }
+            }
+            .error-home {
+                font-size: 1.5rem;
+                padding: 15px 25px;
+                .error-btn {
+                    font-size: 1.3rem;
+                    padding: 10px;
+                }
             }
         }
     }
