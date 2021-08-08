@@ -3,14 +3,7 @@
   transition: all 0.4s linear;
   border-radius: 2px; }
 
-/*da problemas con boostrap probar
-.btn {
-    font-size: 14px;
-    padding: 15px 26px;
-    min-width: 160px;
-    border-radius: 2px;
-}*/
-.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .boton {
+.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .linkedin-btn {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 10px 26px;
@@ -38,10 +31,10 @@ h4 {
 p {
   color: white; }
 
-.main-contacto,
-.main-valores,
-.main-portafolio,
-.main-sobre-mi {
+.main-contact,
+.main-values,
+.main-portfolio,
+.main-about-me {
   background: linear-gradient(to bottom, #b2bcc4, #2c3e50); }
 
 .conteiner {
@@ -104,14 +97,7 @@ p {
   transition: all 0.4s linear;
   border-radius: 2px; }
 
-/*da problemas con boostrap probar
-.btn {
-    font-size: 14px;
-    padding: 15px 26px;
-    min-width: 160px;
-    border-radius: 2px;
-}*/
-.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .boton {
+.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .linkedin-btn {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 10px 26px;
@@ -182,14 +168,7 @@ p {
   transition: all 0.4s linear;
   border-radius: 2px; }
 
-/*da problemas con boostrap probar
-.btn {
-    font-size: 14px;
-    padding: 15px 26px;
-    min-width: 160px;
-    border-radius: 2px;
-}*/
-.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .boton {
+.button, #newsletter .news-conteiner .news-form .news-btn .news-submit-btn, .main-index .call-to-action .linkedin-btn {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 10px 26px;
@@ -207,20 +186,20 @@ p {
     margin-top: 75px;
     padding-bottom: 50px;
     text-align: center; }
-    .main-index .call-to-action .boton {
+    .main-index .call-to-action .linkedin-btn {
       display: inline-block; }
-    .main-index .call-to-action .boton-primario {
+    .main-index .call-to-action .primary-btn {
       background-color: whitesmoke;
       color: black;
       border: 2px solid whitesmoke; }
-      .main-index .call-to-action .boton-primario .flecha-imagen {
+      .main-index .call-to-action .primary-btn .arrow-img {
         vertical-align: middle; }
-    .main-index .call-to-action .boton-primario:hover {
+    .main-index .call-to-action .primary-btn:hover {
       background-color: whitesmoke;
       color: black;
       border: 2px solid whitesmoke;
       transform: scale(1.1); }
-    .main-index .call-to-action .boton-primario:focus {
+    .main-index .call-to-action .primary-btn:focus {
       background-color: whitesmoke;
       outline: none;
       border: 2px solid whitesmoke;
@@ -229,19 +208,19 @@ p {
 /*//////////
     Contacto
 //////////*/
-.main-contacto p {
+.main-contact p {
   font-size: 1.5rem; }
 
 .contact-text p {
   text-align: start; }
 
-.grupo-formulario {
+.form-group {
   margin-bottom: 0.8rem; }
-  .grupo-formulario .form-label {
+  .form-group .form-label {
     font-size: 1.1rem;
     color: white; }
 
-.boton-contacto {
+.btn-contact {
   width: 100%; }
 
 /*//////////
@@ -279,39 +258,39 @@ p {
   margin-left: -15px; }
   .row .pricing-container {
     margin: 15px 0; }
-    .row .pricing-container .paquetes {
+    .row .pricing-container .package {
       min-width: unset;
       padding: 40px 20px; }
-    .row .pricing-container .paquete-inicial {
+    .row .pricing-container .starter-pack {
       background-color: rgba(255, 255, 255, 0.767);
       border: 2px solid #252121; }
-    .row .pricing-container .paquete-empresarial {
+    .row .pricing-container .business-pack {
       background-color: #252121;
       border: 2px solid #252121;
       color: rgba(255, 255, 255, 0.767); }
-    .row .pricing-container .paquetes .btn,
-    .row .pricing-container .paquete-inicial .btn,
-    .row .pricing-container .paquete-empresarial .btn {
+    .row .pricing-container .package .btn,
+    .row .pricing-container .starter-pack .btn,
+    .row .pricing-container .business-pack .btn {
       font-size: 14px;
       padding: 15px 26px;
       min-width: 160px;
       border-radius: 2px;
       display: inline-block; }
-    .row .pricing-container .paquetes .btn-primary,
-    .row .pricing-container .paquete-inicial .btn-primary,
-    .row .pricing-container .paquete-empresarial .btn-primary {
+    .row .pricing-container .package .first-btn,
+    .row .pricing-container .starter-pack .first-btn,
+    .row .pricing-container .business-pack .first-btn {
       background-color: #252121;
       color: white;
       border: 2px solid #000000; }
-    .row .pricing-container .paquetes .btn-alternate,
-    .row .pricing-container .paquete-inicial .btn-alternate,
-    .row .pricing-container .paquete-empresarial .btn-alternate {
+    .row .pricing-container .package .second-btn,
+    .row .pricing-container .starter-pack .second-btn,
+    .row .pricing-container .business-pack .second-btn {
       background-color: transparent;
       color: white;
       border: 2px solid whitesmoke; }
-    .row .pricing-container .paquetes .full-width,
-    .row .pricing-container .paquete-inicial .full-width,
-    .row .pricing-container .paquete-empresarial .full-width {
+    .row .pricing-container .package .full-width,
+    .row .pricing-container .starter-pack .full-width,
+    .row .pricing-container .business-pack .full-width {
       width: 100%; }
 
 /*////////////// 
@@ -340,7 +319,7 @@ p {
         .ham-menu .ham-list .ham-item a {
           display: block;
           background-color: #0f0d0e;
-          padding: 2px; }
+          padding: 3px; }
         .ham-menu .ham-list .ham-item a:hover {
           background-color: #8d8c8c;
           transition: all 0.4s linear;
@@ -416,7 +395,7 @@ p {
         .ham-menu .ham-list .ham-item a {
           display: block;
           background-color: #0f0d0e;
-          padding: 2px; }
+          padding: 4px; }
         .ham-menu .ham-list .ham-item a:hover {
           background-color: #8d8c8c;
           transition: all 0.4s linear;
@@ -458,10 +437,8 @@ p {
   p {
     font-size: 1.7rem; }
   .main-index,
-  .main-sobre-mi,
-  .main-contacto {
-    display: grid;
-    align-content: center;
+  .main-about-me,
+  .main-contact {
     min-height: 681px; } }
 
 @media only screen and (min-width: 1200px) {

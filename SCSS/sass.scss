@@ -14,25 +14,25 @@
         margin-top: 75px;
         padding-bottom: 50px;
         text-align: center;
-        .boton {
+        .linkedin-btn {
             @extend .button;
             display: inline-block;
         }
-        .boton-primario {
+        .primary-btn {
             background-color: $btn-white;
             color: black;
             border: 2px solid $btn-white;
-            .flecha-imagen {
+            .arrow-img {
                 vertical-align: middle;
             }
         }
-        .boton-primario:hover {
+        .primary-btn:hover {
             background-color: $btn-white;
             color: black;
             border: 2px solid $btn-white;
             transform: scale(1.1);
         }
-        .boton-primario:focus {
+        .primary-btn:focus {
             background-color: whitesmoke;
             outline: none;
             border: 2px solid whitesmoke;
@@ -46,7 +46,7 @@
     Contacto
 //////////*/
 
-.main-contacto {
+.main-contact {
     p {
         font-size: 1.5rem;
     }
@@ -58,7 +58,7 @@
     }
 }
 
-.grupo-formulario {
+.form-group {
     margin-bottom: 0.8rem;
     .form-label {
         font-size: 1.1rem;
@@ -66,7 +66,7 @@
     }
 }
 
-.boton-contacto {
+.btn-contact {
     width: 100%;
 }
 
@@ -123,20 +123,20 @@
     margin-left: -15px;
     .pricing-container {
         margin: 15px 0;
-        .paquetes {
+        .package {
             min-width: unset;
             padding: 40px 20px;
         }
-        .paquete-inicial {
-            @include paquete ($var-white, $obscure-color)
+        .starter-pack {
+            @include package ($var-white, $obscure-color)
         }
-        .paquete-empresarial {
-            @include paquete ($obscure-color, $obscure-color);
+        .business-pack {
+            @include package ($obscure-color, $obscure-color);
             color: $var-white;
         }
-        .paquetes,
-        .paquete-inicial,
-        .paquete-empresarial {
+        .package,
+        .starter-pack,
+        .business-pack {
             .btn {
                 font-size: 14px;
                 padding: 15px 26px;
@@ -144,10 +144,10 @@
                 border-radius: 2px;
                 display: inline-block;
             }
-            .btn-primary {
+            .first-btn {
                 @include bnt-default ($obscure-color, $text-color, $black-price);
             }
-            .btn-alternate {
+            .second-btn {
                 @include bnt-default (transparent, $text-color, $btn-white);
             }
             .full-width {
@@ -193,7 +193,7 @@
                 a {
                     display: block;
                     background-color: #0f0d0e;
-                    padding: 2px;
+                    padding: 3px;
                 }
                 a:hover {
                     background-color: rgb(141, 140, 140);
@@ -328,7 +328,7 @@
                 a {
                     display: block;
                     background-color: #0f0d0e;
-                    padding: 2px;
+                    padding: 4px;
                 }
                 a:hover {
                     background-color: rgb(141, 140, 140);
@@ -411,10 +411,8 @@
         font-size: 1.7rem;
     }
     .main-index,
-    .main-sobre-mi,
-    .main-contacto {
-        display: grid;
-        align-content: center;
+    .main-about-me,
+    .main-contact {
         min-height: 681px;
     }
 }
