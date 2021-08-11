@@ -473,6 +473,8 @@
     .main-about-me,
     .main-contact {
         min-height: 681px;
+        display: flex;
+        align-items: center;
     }
 }
 
